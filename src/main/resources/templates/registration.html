@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>  Registration </title>
+<link rel="stylesheet" th:href ="@{/CSS/registration.css}">
+<body>
+
+	<h1>User Registration</h1>
+	<br>
+	<div id="f">
+	<form action="register" method="post">
+		<label>UserName</label>
+		<br>
+		<input id="e" type="text" name="username">
+		<br> 
+		<br>
+		<label>Email</label> 
+		<br>
+		<input id="e" type="text" name="email">
+		<br> 
+		<br> 
+		<label>Password</label> 
+		<br>
+		<input id="e" type="password" name="password"> 
+		<br> 
+		<br> 
+		<label >Gender</label> 
+		  <input  type="radio" name="gender" value="male">  Male
+		  <input  type="radio" name="gender" value="female">Female
+		  <input  type="radio" name="gender" value="others">Others
+		<br>
+		<br>
+		<label >Role</label>
+		 <input class="r" type="radio" name="role" value="admin">  Admin
+		 <input class="r" type="radio" name="role" value="customer">Customer
+		<br>
+		<br>
+		<label>Address</label>
+		<br>
+		<textarea name="address" rows="2" cols="30"></textarea>
+		<br>
+		<br> 
+	    <input id="s" type="submit">
+
+	</form>
+</div>	
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: LightBlue;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+}
+
+#f {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+}
+
+label, input {
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+#s {
+	margin-left: 80px;
+}
+
+.r {
+	margin-left: 30px;
+}
+
+#e {
+	width: 230px;
+}

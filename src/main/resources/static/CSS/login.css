@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: LightCyan;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+	/* Ensures the container is centered vertically on the page */
+	margin: 0;
+}
+
+label, input {
+	font-size: 18px;
+	font-family: Airal,sans-serif;
+}
+
+.input-box {
+	margin-left: 30px;
+}
+
+h1 {
+	margin-left: 70px;
+}
+
+input {
+	padding: 3px;
+}
+
+#sub {
+	margin-left: 120px;
+}
